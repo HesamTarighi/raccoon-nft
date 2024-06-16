@@ -1,0 +1,31 @@
+@layer components {
+    .btn {
+        @apply rounded-md px-6 py-2 text-fourth;
+    
+        &-size__xs {
+            @apply px-2 py-[2px] text-[12px];
+        }
+        &-size__sm {
+            @apply px-3 py-1 text-[13px];
+        }
+        &-size__md {
+            @apply px-6 py-2;
+        }
+        &-size__lg {
+            @apply px-8 py-3 text-[19px];
+        }
+
+        &-type__primary {
+            @apply bg-third rounded-md;
+        }
+        &-type__secondary {
+            @apply bg-secondary rounded-md;
+        }
+        &-type__primary-outline {
+            @apply border border-third text-third rounded-sm;
+        }
+        &-type__secondary-outline {
+            @apply border border-fourth text-fourth rounded-sm;
+        }
+    }
+}
